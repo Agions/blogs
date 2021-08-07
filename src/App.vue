@@ -1,13 +1,11 @@
 <template>
-<div>初始化</div>
+  <router-link to="home">home</router-link>
+  <router-link to="user">user</router-link>
+  <router-view></router-view>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script lang="ts" setup>
 
-export default defineComponent({
-  name: 'App',
-})
 </script>
 
 <style>
