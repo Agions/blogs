@@ -4,6 +4,5 @@ dist
 dist-ssr
 *.local
 *lock.json
-*.lock
 *.zip
 *.rar
